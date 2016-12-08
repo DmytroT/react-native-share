@@ -4,7 +4,7 @@
   "version": "1.0.17",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EstebanFuentealba/react-native-share.git"
+    "url": "git+https://github.com/DmytroT/react-native-share.git"
   },
   "keywords": [
     "react-component",
