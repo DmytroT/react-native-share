@@ -31,7 +31,7 @@ public abstract class ShareIntent {
         if (ShareIntent.hasValidKey("subject", options) ) {
             this.getIntent().putExtra(Intent.EXTRA_SUBJECT, options.getString("subject"));
         }
-
+/*
         if (ShareIntent.hasValidKey("message", options) && ShareIntent.hasValidKey("url", options)) {
             ShareFile fileShare = getFileShare(options);
             if(fileShare.isFile()) {
@@ -53,7 +53,8 @@ public abstract class ShareIntent {
             } else {
                 this.getIntent().putExtra(Intent.EXTRA_TEXT, options.getString("url"));
             }
-        } else if (ShareIntent.hasValidKey("message", options) ) {
+        } else */
+        if (ShareIntent.hasValidKey("message", options) ) {
             this.getIntent().putExtra(Intent.EXTRA_TEXT, options.getString("message"));
         }
     }
